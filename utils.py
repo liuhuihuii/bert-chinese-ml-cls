@@ -105,7 +105,7 @@ def params_train(data_path, competency_question_id):
                 if me.accuracy_score(y_test, y_pred) >= 1.0:
                     print("nnd=" + str(nnd) + " i=" + str(i) + " j=" + str(j) + " test acc = " + str(
                         me.accuracy_score(y_test, y_pred)))
-        return data_x, y
+     return data_x, y
 
 
 def produce_model(data_x, y, data_path, competency_question_id, nnd, i, j):
